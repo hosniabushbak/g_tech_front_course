@@ -1,0 +1,21 @@
+@font-face {
+	font-family: mainFont;
+	src: url('fonts/englishFont.ttf');
+}
+
+* {
+	font-family: mainFont;
+}
+
+.first {
+	color: green;
+	font-size: 120px;
+	font-weight: bold;
+}
+
+.ahmed {
+	height: 400px;
+	width: 400px;
+	/*background-color: rgb(33 72 232);*/
+	background-color: blue;
+}
