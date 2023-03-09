@@ -1,3 +1,6 @@
+:root {
+	--mainColor: #fff;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +11,7 @@ ul {
 header {
 	/*background: #ccc;*/
 	height: 100vh;
-	background-image: url('../img/background.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/_1.jpg');
 	background-position: bottom;
 	background-size: cover;
 }
@@ -21,12 +24,12 @@ header nav ul li {
 }
 header nav ul li a {
 	font-size: 31px;
-    color: #fff;
+    color: var(--mainColor);
     text-decoration: none;
 }
 .logo h3 {
 	font-size: 31px;
-    color: #fff;
+    color: var(--mainColor);
 }
 .firstText {
 	text-align: center;
@@ -37,7 +40,8 @@ header nav ul li a {
 	align-items: center;*/
 }
 .firstText h1 {
-	color: #fff;
+	color: var(--mainColor);
+	color: red !important;
 	font-size: 70px;
 }
 footer {
