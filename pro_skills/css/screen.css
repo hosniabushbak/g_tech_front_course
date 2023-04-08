@@ -5,9 +5,32 @@
 	.menuMobile {
 		display: flex;
 	}
+	.container {
+		padding: 0 70px;
+	}	
+	.categoriesGrid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (max-width: 630px) {
+	.headerFirstH1 {
+		font-size: 25px;
+	}
+	.headerSecondH1 {
+		font-size: 21px;
+	}
+	.headerParagraph {
+		width: 100%;
+	}
 }
 @media (max-width: 520px) {
 	.secondary-container {
 		padding: 0 30px;
+	}
+	.container {
+		padding: 0 20px;
+	}
+	.categoriesGrid {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }

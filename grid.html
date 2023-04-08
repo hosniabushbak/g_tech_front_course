@@ -1,0 +1,44 @@
+<div class="parent">
+	<div class="_1">
+		1
+	</div>
+	<div class="_1">
+		2
+	</div>
+	<div class="_1">
+		3
+	</div>
+	<div class="_1">
+		4
+	</div>
+	<div class="_1">
+		5
+	</div>
+	<!-- <div class="_1">
+		6
+	</div> -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript">
+	Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+</script>
+<style type="text/css">
+.parent {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr) 2fr;
+	/*grid-gap: 5px;*/
+
+}
+._1 {
+	background: red;
+	height: 70px;
+	width: 120px;
+}
+
+</style>
